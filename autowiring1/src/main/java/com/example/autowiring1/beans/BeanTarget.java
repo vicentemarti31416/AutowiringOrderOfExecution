@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 public class BeanTarget {
 	
 	@Autowired
-	@Qualifier("class1")
 	private Interface1 class2;
 
 	public BeanTarget() {
